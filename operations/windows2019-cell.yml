@@ -173,7 +173,7 @@
   value:
     alias: windows2019
     os: windows2019
-    version: "2019.99"
+    version: "2019.102"
 - type: replace
   path: /instance_groups/name=api/jobs/name=cloud_controller_ng/properties/cc/stacks/name=windows?
   value:
@@ -205,9 +205,9 @@
   path: /releases/name=winc?
   value:
     name: winc
-    sha1: sha256:abb55eef79d08a0e8f53ac38873619650bf50203fa55d2c9d1f8dae7ca6a6859
-    url: https://bosh.io/d/github.com/cloudfoundry-incubator/winc-release?v=2.66.0
-    version: 2.66.0
+    sha1: sha256:bd20a1a95af32b8df2f525684c8e5465c90f85b3b9723f30068df2a5d1fff23d
+    url: https://bosh.io/d/github.com/cloudfoundry-incubator/winc-release?v=2.75.0
+    version: 2.75.0
 - type: replace
   path: /releases/name=windows-utilities?
   value:
@@ -245,6 +245,6 @@
   path: /releases/name=envoy-nginx?
   value:
     name: envoy-nginx
-    sha1: sha256:4953f61492311c891cd48971c9c656a722ecc5503299e472a9d1590642737736
-    url: https://bosh.io/d/github.com/cloudfoundry-incubator/envoy-nginx-release?v=0.68.0
-    version: 0.68.0
+    sha1: sha256:7087c5f925eaaede981c9a33f19771a25ba6ee330ad37192c8ee5771089c13ee
+    url: https://bosh.io/d/github.com/cloudfoundry-incubator/envoy-nginx-release?v=0.78.0
+    version: 0.78.0

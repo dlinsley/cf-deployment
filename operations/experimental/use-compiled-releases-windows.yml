@@ -2,20 +2,20 @@
   path: /releases/name=diego
   value:
     name: diego
-    sha1: sha256:6b842817d4f1a8fab409c06d119c58546b238f805369f9d608f0dd8d410ac328
-    url: https://bosh.io/d/github.com/cloudfoundry/diego-release?v=2.138.0
-    version: 2.138.0
+    sha1: sha256:cac5a29c42641b347efd50e61bbc8f9481b217e00ba0b6c30ba8f6b6c851e358
+    url: https://bosh.io/d/github.com/cloudfoundry/diego-release?v=2.149.0
+    version: 2.149.0
 - type: replace
   path: /releases/name=garden-runc
   value:
     name: garden-runc
-    sha1: sha256:82f96eb85d6d673cb5f66503b8abeb6bb158ca676b754f225c43a5fe9fe1f3b9
-    url: https://bosh.io/d/github.com/cloudfoundry/garden-runc-release?v=1.90.0
-    version: 1.90.0
+    sha1: sha256:1db475b2c0f42cf3ff40e0af573cc024177ab4d1e372cd366a112c9b0017451d
+    url: https://bosh.io/d/github.com/cloudfoundry/garden-runc-release?v=1.96.0
+    version: 1.96.0
 - type: replace
   path: /releases/name=loggregator-agent
   value:
     name: loggregator-agent
-    sha1: sha256:ea57231deb938e7c6a980ef3c913c0108dd8e2174bfe4bb8943388a316b4b225
-    url: https://bosh.io/d/github.com/cloudfoundry/loggregator-agent-release?v=8.3.22
-    version: 8.3.22
+    sha1: sha256:3d178d28404f6b6e51b1239511f217ee9c3b1e03f0fc1985bbeb5d093007cff7
+    url: https://bosh.io/d/github.com/cloudfoundry/loggregator-agent-release?v=8.3.27
+    version: 8.3.27

@@ -55,8 +55,10 @@ jobs:
             operations/use-internal-lookup-for-route-services.yml
             operations/experimental/colocate-smoke-tests-on-cc-worker.yml
             operations/use-postgres.yml
+            operations/set-cflinuxfs4-default-stack.yml
           SYSTEM_DOMAIN: cf.bellatrix.env.wg-ard.ci.cloudfoundry.org
           SKIP_STEMCELL_UPLOAD: true
+          REGENERATE_CREDENTIALS: true
         task: deploy-cf
       - in_parallel:
           steps:
@@ -130,6 +132,7 @@ jobs:
                 - get: cf-deployment-concourse-tasks
                 - get: cf-acceptance-tests-rc
           - file: cf-deployment-concourse-tasks/update-integration-configs/task.yml
+            attempts: 3
             input_mapping:
               bbl-state: relint-envs
               cf-acceptance-tests: cf-acceptance-tests-rc

@@ -2,9 +2,9 @@
   path: /releases/-
   value:
     name: postgres
-    sha1: sha256:b3fbc204aa4e9d662ea69f90f3aeb6d62f6ff2e9bfaf8e9f99ddc93208a7ceb1
-    url: https://bosh.io/d/github.com/cloudfoundry/postgres-release?v=54.0.5
-    version: 54.0.5
+    sha1: sha256:76108c0d3f52a7b40c8582514198e5f2c12f4aa20f7e6d3029b2cc1f5720bc78
+    url: https://bosh.io/d/github.com/cloudfoundry/postgres-release?v=56.0.4
+    version: 56.0.4
 - type: remove
   path: /releases/name=pxc
 - type: remove
